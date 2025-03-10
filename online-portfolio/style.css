@@ -36,7 +36,6 @@ body {
     margin-top: 10px;
     letter-spacing: 2px;
     text-align: center;
-    
 }
 
 .contact-button a {
@@ -64,6 +63,11 @@ body {
     color: #ffffff;
     padding-top: 10px;
     font-size: 20px;
+}
+
+#navigation a {
+    color:#ffffff;
+    text-decoration: none;
 }
 
 #experience {
