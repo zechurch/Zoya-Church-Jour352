@@ -1,3 +1,5 @@
+/*DO NOT FORGET MEDIA QUERIES*/
+
 /*
 MY COLOR PALETTE
 Color 1 - #efe9e4
@@ -15,19 +17,83 @@ body {
     background-color: #efe9e4;
 }
 
-h1 {
+.name {
     font-family: "Playfair Display", serif;
+    font-size: 80px;
 }
 
 .title {
     font-family: "Noto Sans Display", sans-serif;
     font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .contact-button {
     background-color: #5e5343;
     color: #ffffff;
     font-family: "Noto Sans Display", sans-serif;
-    margin: 10px;
-    border-radius: 8px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.contact-button a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.headshot {
+    width: 100%;
+    display:block;
+    margin:auto;
+    padding-top: 10px;
+}
+
+#info {
+     display:block;
+    margin:auto;
+    text-align: center;
+}
+
+#navigation {
+    text-align:center;
+    font-family: "Noto Sans Display", sans-serif;
+    background-color: #5e5343;
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#experience {
+    font-family: "Playfair Display", serif;
+    line-height: 100px;
+    font-size: 45px;
+}
+
+#skills {
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+}
+
+#education {
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+}
+
+.jobtitle {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.company {
+  font-family: "Noto Sans Display", sans-serif;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.description {
+    font-size: 15px;
 }
