@@ -5,4 +5,29 @@ Color 2 - #5e5343
 Color 3 - #c1ceab
 Color 4 - #ffffff
 Color 5 - #000000
+
+FONTS
+font-family: "Noto Sans Display", sans-serif;
+font-family: "Playfair Display", serif;
 */
+
+body {
+    background-color: #efe9e4;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+}
+
+.title {
+    font-family: "Noto Sans Display", sans-serif;
+    font-size: large;
+}
+
+.contact-button {
+    background-color: #5e5343;
+    color: #ffffff;
+    font-family: "Noto Sans Display", sans-serif;
+    margin: 10px;
+    border-radius: 8px;
+}
