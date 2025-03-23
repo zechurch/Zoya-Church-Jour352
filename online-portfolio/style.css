@@ -24,7 +24,7 @@ body {
 
 .title {
     font-family: "Noto Sans Display", sans-serif;
-    font-size: large;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -39,25 +39,29 @@ body {
 }
 
 .contact-button a {
-    color:#ffffff;
+    color: #ffffff;
     text-decoration: none;
+}
+
+.contact-button a:hover {
+    color: #c1ceab;
 }
 
 .headshot {
     width: 100%;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
     padding-top: 10px;
 }
 
 #info {
-     display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
     text-align: center;
 }
 
 #navigation {
-    text-align:center;
+    text-align: center;
     font-family: "Noto Sans Display", sans-serif;
     background-color: #5e5343;
     color: #ffffff;
@@ -66,38 +70,292 @@ body {
 }
 
 #navigation a {
-    color:#ffffff;
+    color: #ffffff;
     text-decoration: none;
+}
+
+#navigation a:hover {
+    color: #c1ceab;
 }
 
 #experience {
     font-family: "Playfair Display", serif;
-    line-height: 100px;
-    font-size: 45px;
+    font-size: 55px;
 }
 
 #skills {
     font-family: "Playfair Display", serif;
-    font-size: 45px;
+    font-size: 55px;
 }
 
 #education {
     font-family: "Playfair Display", serif;
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .jobtitle {
     font-family: "Playfair Display", serif;
     font-size: 30px;
     line-height: 30px;
+    color: #5e5343;
+    font-weight: bold;
 }
 
 .company {
-  font-family: "Noto Sans Display", sans-serif;
+    font-family: "Noto Sans Display", sans-serif;
     line-height: 10px;
     font-size: 20px;
 }
 
 .description {
     font-size: 15px;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+#skillset {
+    font-family: "Noto Sans Display", sans-serif;
+    font-size: 15px;
+}
+
+#degree {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #5e5343;
+}
+
+#school {
+    font-family: "Noto Sans Display", sans-serif;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .name {
+        font-family: "Playfair Display", serif;
+        font-size: 100px;
+    }
+
+    #navigation {
+        text-align: center;
+        font-family: "Noto Sans Display", sans-serif;
+        background-color: #5e5343;
+        color: #ffffff;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .title {
+        font-family: "Noto Sans Display", sans-serif;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    #experience {
+        font-family: "Playfair Display", serif;
+        font-size: 55px;
+    }
+
+    #skills {
+        font-family: "Playfair Display", serif;
+        font-size: 55px;
+    }
+
+    #skillset {
+        font-family: "Noto Sans Display", sans-serif;
+        font-size: 25px;
+    }
+
+    #education {
+        font-family: "Playfair Display", serif;
+        font-size: 55px;
+    }
+
+    .jobtitle {
+        font-family: "Playfair Display", serif;
+        font-size: 40px;
+        line-height: 40px;
+        color: #5e5343;
+        font-weight: bold;
+    }
+
+    .company {
+        font-family: "Noto Sans Display", sans-serif;
+        line-height: 20px;
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 25px;
+        font-family: "Noto Sans Display", sans-serif;
+    }
+
+    #degree {
+        font-family: "Playfair Display", serif;
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #5e5343;
+    }
+
+    #school {
+        font-family: "Noto Sans Display", sans-serif;
+        line-height: 20px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .name {
+        font-family: "Playfair Display", serif;
+        font-size: 110px;
+    }
+
+    #navigation {
+        text-align: center;
+        font-family: "Noto Sans Display", sans-serif;
+        background-color: #5e5343;
+        color: #ffffff;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .title {
+        font-family: "Noto Sans Display", sans-serif;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    #experience {
+        font-family: "Playfair Display", serif;
+        font-size: 65px;
+    }
+
+    #skills {
+        font-family: "Playfair Display", serif;
+        font-size: 65px;
+    }
+
+    #skillset {
+        font-family: "Noto Sans Display", sans-serif;
+        font-size: 35px;
+    }
+
+    #education {
+        font-family: "Playfair Display", serif;
+        font-size: 65px;
+    }
+
+    .jobtitle {
+        font-family: "Playfair Display", serif;
+        font-size: 50px;
+        line-height: 50px;
+        color: #5e5343;
+        font-weight: bold;
+    }
+
+    .company {
+        font-family: "Noto Sans Display", sans-serif;
+        line-height: 30px;
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 35px;
+        font-family: "Noto Sans Display", sans-serif;
+    }
+
+    #degree {
+        font-family: "Playfair Display", serif;
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        color: #5e5343;
+    }
+
+    #school {
+        font-family: "Noto Sans Display", sans-serif;
+        line-height: 30px;
+        font-size: 40px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .name {
+        font-family: "Playfair Display", serif;
+        font-size: 110px;
+    }
+
+    #navigation {
+        text-align: center;
+        font-family: "Noto Sans Display", sans-serif;
+        background-color: #5e5343;
+        color: #ffffff;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .title {
+        font-family: "Noto Sans Display", sans-serif;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    #experience {
+        font-family: "Playfair Display", serif;
+        font-size: 75px;
+    }
+
+    #skills {
+        font-family: "Playfair Display", serif;
+        font-size: 75px;
+    }
+
+    #skillset {
+        font-family: "Noto Sans Display", sans-serif;
+        font-size: 25px;
+    }
+
+    #education {
+        font-family: "Playfair Display", serif;
+        font-size: 75px;
+    }
+
+    .jobtitle {
+        font-family: "Playfair Display", serif;
+        font-size: 50px;
+        line-height: 50px;
+        color: #5e5343;
+        font-weight: bold;
+    }
+
+    .company {
+        font-family: "Noto Sans Display", sans-serif;
+        line-height: 30px;
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 25px;
+        font-family: "Noto Sans Display", sans-serif;
+    }
+
+    #degree {
+        font-family: "Playfair Display", serif;
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        color: #5e5343;
+    }
+
+    #school {
+        font-family: "Noto Sans Display", sans-serif;
+        line-height: 30px;
+        font-size: 40px;
+    }
 }
