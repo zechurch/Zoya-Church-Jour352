@@ -1,0 +1,77 @@
+.image {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.image-caption {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    text-align:center;
+}
+
+#byline {
+    font-family: "Playfair Display", serif;
+    line-height: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #da020e;
+    font-size: 20px;
+}
+
+#start {
+    font-family: "Open Sans", sans-serif;
+}
+
+blockquote {
+    font-family: "Open Sans", sans-serif;
+    float: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+.images {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    color: black;
+}
+
+.source {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #da020e;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.quotes {
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#middle {
+        font-family: "Open Sans", sans-serif;
+}
+
+.points {
+    width:100%;
+}
+
+#third {
+        font-family: "Open Sans", sans-serif;
+}
